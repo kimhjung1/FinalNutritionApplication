@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!--영양제 추천 화면 제목-->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:paddingBottom="16dp"
+        android:text="증상을 선택해주세요."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!--영양제 필요 증상1-->
+
+    <!--영양제 필요 증상2-->
+    <Button
+        android:id="@+id/symptomBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#C3C3C3"
+        android:padding="16dp"
+        android:text="안구건조증"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/symptomBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#C3C3C3"
+        android:padding="16dp"
+        android:text="만성피로 및 식욕부진"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <!--영양제 필요 증상3-->
+    <Button
+        android:id="@+id/symptomBtn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#C3C3C3"
+        android:padding="16dp"
+        android:text="골다공증 방지"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <!--영양제 필요 증상4-->
+    <Button
+        android:id="@+id/symptomBtn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#C3C3C3"
+        android:padding="16dp"
+        android:text="면역력 강화"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/gobackBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#000000"
+        android:padding="16dp"
+        android:text="추천받지 않을래요"
+        android:textSize="20sp" />
+
+</LinearLayout>
